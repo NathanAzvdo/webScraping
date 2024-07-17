@@ -22,8 +22,8 @@ for notice in notices:
         
 
 news = pd.DataFrame(lista_noticias, columns=['Título', "Resumo", "Link"])
-news.to_csv('noticias.csv', index=False)#index false para não salvar o índice do DataFrame
-news.to_excel('noticias.xlsx', index=False)
+news.to_csv('g1/noticias.csv', index=False)#index false para não salvar o índice do DataFrame
+news.to_excel('g1/noticias.xlsx', index=False)
 
 print(news)
 
